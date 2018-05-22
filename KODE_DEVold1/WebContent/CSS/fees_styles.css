@@ -1,0 +1,201 @@
+.row {
+	display:table;
+	clear:both;
+	content:"";
+}
+a {
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:0px;
+}
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0px;
+	font-family:arial;
+	line-height:1.5;
+}
+.page_wrapper {
+	width:100%;
+	height:auto;
+}
+.container {
+	background: url("../Image/body.png") center center no-repeat;
+}
+.fee_form_outer {
+    background: #fcf7f7;
+    height: auto;
+    margin: auto auto 35px auto;
+    padding: 25px;
+	border:3px solid #c8c8c8;
+	border-radius:3px;
+    width: 600px;
+    
+}
+.fee_form_outer h3 {
+	color:#0094DC;
+	text-align:center;
+	width:100%;
+	font-size:18px;
+}
+.fee_form_inner {
+	width:100%;
+	height:auto;
+}
+.fee_form_inner ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.fee_form_inner ul li {
+	width:100%;
+	float:left;
+	margin-bottom:15px;
+}
+.fee_form_inner ul li label {
+	font-size:14px;
+	color:#333;
+	padding-bottom:4px;
+	float:left;
+	width:100%;
+}
+.fee_form_inner ul li input[type=text] {
+	width:100%;
+	padding:0px 10px;
+	height:35px;
+	font-family:arial;
+	border:1px solid #bbb;
+}
+.fee_form_inner ul li input[type=number] {
+	width:100%;
+	padding:0px 10px;
+	height:35px;
+	font-family:arial;
+	border:1px solid #bbb;
+}
+.fee_form_inner ul li select {
+	width:100%;
+	padding:0px 10px;
+	height:35px;
+	border:1px solid #bbb;
+}
+.result_box {
+	background:#ccc;
+}
+.fee_form_inner ul li input[type=submit] {
+	background:#51a6c5;
+	border:1px solid #c8c8c8;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:16px;
+	margin:auto;
+	display:table;
+	padding:5px 15px;
+	cursor:pointer;
+}
+.fee_form_inner ul li:last-child {
+	margin-bottom:0px;
+}
+.disable_box {
+	background:#ccc;
+	pointer-events: none;
+}
+
+.payment_outer {
+	width:850px;
+	height:auto;
+}
+.payment_left {
+	width:370px;
+	float:left;
+	height:auto;
+}
+.payment_right {
+	width:370px;
+	float:right;
+	height:auto;
+}
+
+.configuration_inner {
+	width:100%;
+	height:auto;
+}
+.combo_box_row {
+	width:100%;
+	height:auto;
+}
+.combo_box_left {
+	width:380px;
+	float:left;
+}
+.combo_box_left ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.combo_box_left ul li {
+	float:left;
+}
+.combo_box_left ul li label{
+	font-size:14px;
+	padding-right:10px;
+	float:left;
+	padding-top:8px;
+	width:140px;
+}
+.combo_box_left ul li select {
+	width:240px;
+	float:left;
+	height:30px;
+	border:1px solid #bbb;
+}
+.config_table_column input {
+	width:100%;
+	height:25px;
+	border:1px solid #bbb;
+	padding:0px 5px;
+}
+.config_table_column select {
+	width:100%;
+	height:25px;
+	border:1px solid #bbb;
+}
+.config_button {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.config_button input[type=submit] {
+	width:100px;
+	border:none;
+	height:30px;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	background:#1d87da;
+}
+
+.config_button .btnSave {
+	width:100px;
+	border:none;
+	height:30px;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	background:#1d87da;
+}
+.combo_box_left ul li input[type=button] {
+    background: #1d87da none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 20px;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    width: auto;
+}
+

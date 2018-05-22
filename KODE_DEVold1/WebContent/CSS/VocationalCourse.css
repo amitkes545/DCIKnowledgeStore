@@ -1,0 +1,48 @@
+.vocational_left{float: left; width: 30%; margin-top: 50px;}
+.vocational_right{float: left; width: 68%; margin-top: 50px;}
+.vocational_left_ul li
+{
+	list-style: none;	
+}
+.vocational_left_ul li a img{
+border: 3px solid #ba8c1c;
+  border-radius: 15px;
+  width: 100%
+}
+.db_big_img{}
+.vocational_right_ul li
+{
+	list-style: none;
+	font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    background: orange;
+    color: #fff;
+}
+.vocational_right_ul{
+	
+	width: 50%;
+	margin: 0 auto;
+}
+.vocational_right_ul li
+{
+	background: #eae9e6;
+	margin-top: 10px;
+	padding: 5px 15px;
+	color: #000;
+}
+/* .vocational_right_ul li:hover
+{
+	background: #0094DA;
+	margin-top: 10px;
+	padding: 5px 15px;
+	color: #fff !important;
+}
+ */
+.vocational_right_ul li:first-child{
+	color: #fff;
+	  text-transform: uppercase;
+	  margin-top: 0px;
+	  background: #0094DA;
+	}
+	

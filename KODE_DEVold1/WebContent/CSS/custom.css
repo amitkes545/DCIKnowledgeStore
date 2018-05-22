@@ -1,0 +1,29 @@
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    float: right;
+    margin-top: 9px;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-default {
+    width: 265px;
+    text-align:left;
+    
+}
+button.multiselect.dropdown-toggle.btn.btn-default span {
+color:#333!important;
+}
+.btn-group, .btn-group-vertical {
+margin-bottom:7px;
+}
+.faculty_mod tr td:last-child > select {
+border-radius:4px;
+height:35px;
+}

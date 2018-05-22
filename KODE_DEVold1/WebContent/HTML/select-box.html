@@ -1,0 +1,75 @@
+<div class="select_box_height">
+<label id='choose' for='options'>Select options</label>
+<br clear='all' />
+<select id='options' size="10" style='display:none;'>
+    <option>Testing1</option>
+    <option>Testing2</option>
+	<option>Testing3</option>
+	<option>Testing4</option>
+	<option>Testing5</option>
+	<option>Testing6</option>
+	<option>Testing7</option>
+	<option>Testing8</option>
+	<option>Testing9</option>
+	<option>Testing10</option>
+	<option>Testing11</option>
+	<option>Testing12</option>
+	<option>Testing13</option>
+	<option>Testing14</option>
+	<option>Testing15</option>
+	<option>Testing16</option>
+	<option>Testing17</option>
+	<option>Testing18</option>
+	<option>Testing19</option>
+	<option>Testing20</option>
+	<option>Testing21</option>
+	<option>Testing22</option>
+</select>
+</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+<script>
+    $('#choose').click(function (e) {
+        e.stopPropagation();
+        $(this).siblings('select').css('width', $(this).outerWidth(true)).toggle();
+    });
+
+    $('#options').change(function (e) {
+        e.stopPropagation();
+        var val = this.value || 'Select options';
+        $(this).siblings('#choose').text(val);
+        $(this).hide();
+    });
+
+    $('select').find('option').on({
+        'mouseover': function () {
+            $('.hover').removeClass('hover');
+            $(this).addClass('hover');
+        },
+            'mouseleave': function () {
+            $(this).removeClass('hover');
+        }
+    });
+</script>
+<style>
+label {
+    background:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/down4-16.png') right center no-repeat;
+    padding:0 20px 0 10px;
+    border:solid 1px #eee;
+}
+.hover {
+    background:#666;
+    color:#fff;
+}
+.select_box_height {
+width:250px;
+height:auto;
+margin:auto;
+}
+.select_box_height label {
+    float: left;
+    height: 35px;
+    line-height: 32px;
+    width: 100%;
+}
+</style>

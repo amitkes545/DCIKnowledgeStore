@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:arial;
+	overflow-x:hidden;
+	padding-bottom:40px;
+}
+#page_footer1 {
+	position:fixed!important;
+	bottom:0px!important;
+}
+.collaborateStudent_mod {
+	float: right;
+    border: 3px solid #C2C2C2;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.submit_btn:hover {
+	background:#3e9cbf;
+}
+.faculty_mod {
+	position:relative;
+	float:right;
+	margin-bottom:50px;
+}
+.faculty_mod .strong {
+    font-size: 18px;
+    padding-top: 0px;
+    color: #0094DC;
+    text-align: left;
+    margin: 0px;
+    font-family: bold;
+    padding-bottom: 25px;
+    padding-left: 65px;
+}
+.postpon_mod {
+	opacity:1;
+}
+.search_div {
+    right: 100px!important;
+    left: inherit!important;
+}

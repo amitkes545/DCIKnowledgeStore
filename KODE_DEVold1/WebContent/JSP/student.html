@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/dci-style.css" type="text/css" />
+<title>Untitled Document</title>
+</head>
+<body>
+<div class="student_view_outer">
+<h3>student View</h3>
+<div class="class_text">
+<a href="#"><img src="../Image/classwork.jpg" /></a>
+</div>
+	<div class="student_view_inner row">
+    	<div class="share_view_outer row">
+        	<ul>
+            	<li><a href="#" class="upload">upload</a></li>
+                <li><a href="#" class="view">view</a></li>
+            </ul>
+        </div>
+        	<div class="student_upload_box">
+            	<ul>
+                	<li><div class="box">
+					<input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+					<label for="file-7">
+					<span>Choose a file</span> <strong>
+					Browse</strong></label>
+				</div></li>
+                    <li><a  href="#">Send</a></li>
+					<!--<li><button type="submit" 
+					style="background: #3998ff;padding: 8px 25px;color: #fff;font-size: 14px;margin: auto;
+					display: table;text-transform: uppercase;margin-top: 20px;text-decoration: none;">send</li>-->
+                </ul>
+            </div>
+            <div class="student_table_box">
+            	<ul>
+                	<li></li>
+                    <li></li>
+                </ul>
+            </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".class_text").click(function(){
+        $(".share_view_outer").show(100);
+		$(".student_upload_box").hide(100);
+		$(".student_table_box").hide(100);
+		
+    });
+	 $(".upload").click(function(){
+        $(".student_upload_box").show(100);
+		$(".student_table_box").hide(100);
+    });
+	$(".view").click(function(){
+        $(".student_table_box").show(100);
+		$(".student_upload_box").hide(100);
+    });
+});
+</script>
+<script>
+'use strict';
+
+;( function ( document, window, index )
+{
+	var inputs = document.querySelectorAll( '.inputfile' );
+	Array.prototype.forEach.call( inputs, function( input )
+	{
+		var label	 = input.nextElementSibling,
+			labelVal = label.innerHTML;
+
+		input.addEventListener( 'change', function( e )
+		{
+			var fileName = '';
+			if( this.files && this.files.length > 1 )
+				fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+			else
+				fileName = e.target.value.split( '\\' ).pop();
+
+			if( fileName )
+				label.querySelector( 'span' ).innerHTML = fileName;
+			else
+				label.innerHTML = labelVal;
+		});
+
+		// Firefox bug fix
+		input.addEventListener( 'focus', function(){ input.classList.add( 'has-focus' ); });
+		input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
+	});
+}( document, window, 0 ));
+</script>
+       <script>
+		(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);
+		</script>
+		
+</html>

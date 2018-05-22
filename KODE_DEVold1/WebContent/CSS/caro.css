@@ -1,0 +1,68 @@
+.slider-wrap {
+position: relative;
+margin: 50px auto;
+width:95%;
+border: 2px solid #56c1ee;
+border-radius: 5px;
+}
+.slider {
+    position: relative;
+    width: 100%!important;
+    margin: auto;
+    height: 50px;
+
+}
+ul {
+margin: 0;
+padding: 0;
+}
+ul li {
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+ul li span {
+display: inline-block;
+vertical-align: middle;
+width: 100px;
+height: 50px;
+background: black;
+}
+.slider-arrow {
+position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 50px;
+    background: #56C1EE;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+.sa-left {
+left: 0px;
+background:#56C1EE url(../Image/left.png)no-repeat center center;width: 50px; height: 42px;
+}
+.sa-right {
+right: 0px;
+background:#56C1EE url(../Image/right.png)no-repeat center center;width: 50px; height: 42px;
+}
+.black {
+background: black;
+}
+.red {
+background: red;
+}
+.green {
+background: green;
+}
+.blue {
+background: blue;
+}
+.yellow {
+background: yellow;
+}
+.slider li a{text-decoration: none; text-transform: uppercase; color: #999;}
+.slider li a:hover{background: #ebebeb; color:#444; padding: 30px;}
+.slider li a.car-active{background: #56C1EE; color:#fff; padding: 30px;}
+

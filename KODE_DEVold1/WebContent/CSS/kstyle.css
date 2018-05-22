@@ -1,0 +1,240 @@
+/* overall division css start*/
+@font-face 
+{
+    font-family:bold;
+    src: url("../Font/OpenSans-Bold.ttf")
+}
+@font-face 
+{
+    font-family: regular;
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+*
+{
+	padding: 0px;
+	margin: 0px;
+	
+}
+body
+{
+	background-color: #fff;
+}
+
+.main
+{
+	margin: 0 auto;
+	width:87%;
+	
+}
+.container
+{
+	float: left;
+	width: 100%;
+	background: #F1F1F1;
+}
+.header1
+{
+	width:100%;
+	float:left;
+	background-color: #c2c2c2;
+	
+}
+.kdslogo
+{
+	width:50%;
+	float:left;
+}
+.kedulogo
+{
+	width:45%;
+    float:right;
+    text-align: right;
+    margin-right: 10px;
+    
+    
+  
+    
+}
+
+.header2
+{
+	width:100%;
+	float:left;
+	background-color: #d1d1d1;
+	height: 40px;
+	opacity:0.9;
+}
+.wmsg
+{
+	margin-top: 12px;
+	color:#0027FF;
+	font-family: bold;
+	margin-left: 15px;
+}
+.smsg
+{
+	width:50%;
+	float:left;
+	
+}
+
+.logbtn
+{
+	width:45%;
+	float:right;
+	text-align:right;
+	margin-right: 25px;
+}
+
+.lgout
+{
+	
+	margin-top:6px;
+	color:#000;
+	float:left;
+	text-align: right;
+	width: 100%;
+}
+.myFolder
+{
+	
+	margin-top:6px;
+	color:#000;
+	float:left;
+	text-align: right;
+	width: 100%;
+}
+.search_box
+{
+	
+width: 400px;
+margin: 10px auto;
+margin-top:20px;
+margin-bottom:20px;
+text-align: left;
+}
+.searching
+{
+	border: 1px solid #C2C2C2;
+	padding: 10px;
+	padding-right:50px;
+	width: 377px;
+	float: left;
+}
+.strm1
+{
+	 width: 20%;
+    border: 2px solid #828282;
+    float: left;
+    margin-right: 25px;
+    margin-left: 51px;
+    position: relative;
+    height:187px;
+    overflow:hidden;
+
+}
+.strm2
+{
+	 width: 20%;
+    border: 2px solid #828282;
+    float: left;
+    margin-right: 25px;
+    margin-left: 51px;
+    position: relative;
+    height:187px;
+    overflow:hidden;
+    top:50px;
+
+}
+.strm_img
+{
+	float: left;
+width: 279px;
+}
+.strm_txt
+{
+	position: absolute;
+bottom: 0px;
+background: #1d9fdb none repeat scroll 0% 0%;
+width: 97%;
+padding:8px 9px 4px 0px;
+text-align: center;
+color:#fff;
+font-family: regular;
+font-size: 15px;
+opacity:1.7;
+}
+.strm2
+{
+	width: 20%;
+    border: 2px solid #828282;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+.strm3
+{
+	width: 20%;
+    border: 2px solid #828282;
+    float: left;
+    margin-right: 25px;
+    height:187px;
+    overflow:hidden;
+    position: relative;
+}
+.strm4
+{
+	width: 20%;
+    border: 2px solid #828282;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+    height:187px;
+    overflow:hidden;
+}
+.stream2
+{
+	margin-top: 30px;
+}
+
+/* Footer section Css Start*/
+#footer
+	{
+		width:85%;
+		background-color: #d1d1d1;
+		position:absolute;
+		bottom:0;
+	}
+	.jcider-nav span{color: #000 !important;}
+	
+.foot_info
+	{
+	color:#000;
+	text-align: center;
+	padding:8px;
+	font-size: 14px;
+	}
+	
+	/* Footer section Css End */
+	
+	.slider {
+	width: 100%;
+	height: 40px !important;
+}
+
+.slider > div > div {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color:#000;
+}
+.slider div
+{
+	float:left;
+}
+.active
+{
+	position: absolute;
+left: 50px;
+margin-top: 20px;
+}

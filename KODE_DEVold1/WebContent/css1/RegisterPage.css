@@ -1,0 +1,105 @@
+
+#login{
+	position:absolute;
+	width: 300px;
+	height: 455px;
+	left: 50%;
+	margin-left: -150px;
+	top: 150px;
+	//border:2px solid brown;
+	background-color:black;
+}
+#login_bg{
+	  position: absolute;
+	  width: 348px;
+	  height: 490px;
+	  left: 50%;
+	  margin-left: -174px;
+	  top: 134px;
+	  opacity:0.3;
+	  background-color: grey;
+}
+#keducom_logo{
+	position:absolute;
+	width: 229px;
+ 	height: 72px;
+ 	right: 28px;
+	top: 12px;
+	//border:1px solid red;
+}
+#keducom_logo img{
+	width:100%;
+	height:100%;	
+}
+.txt_feild{
+	position:relative;
+	width:200px;
+	height:34px;
+	left: 68px;
+	border:0px solid;
+	background-color: #1C1C1C;
+	
+}
+#uname{top: 105px;}
+#pwd{top: 122px;}
+#email{	top: 138px;}
+#fname{	top: 155px;}
+#lname{	top: 172px;}
+
+#label_txt{
+	position:absolute;
+	left: 63px;
+	bottom: 10px;
+	color: #fff;
+	font-family:arial;
+	//font-weight:bold;
+	font-size:10px;
+}
+#login_link{
+	position:absolute;
+	left: 186px;
+	bottom: 10px;
+	font-family:arial;
+	font-weight:bold;
+	font-size:10px;
+}
+#login_link:hover{color:red;}
+#submit_btn{
+	  position: absolute;
+	  width: 241px;
+	  height: 40px;
+	  left: 30px;
+	  bottom: 40px;
+	  background-color:#FAAC58;
+	  font-family:arial;
+}
+#submit_btn span{
+	position:relative;
+	font-size:20px;
+	left: 80px;
+	top: 10px;
+}
+.fa-user, .fa-certificate,  .fa-at{
+	  color: grey;
+	  font-size: 23px;
+	  position: relative;
+	  top: 10px;
+	  left: 11px;
+}
+.txt_feild_logo{
+	  position: absolute;
+	  background-color: #1C1C1C;
+	  width: 38px;
+	  height: 34px;
+	  left: 30px;
+	  border:0px solid;
+}
+#uname_logo{top: 105px;}
+#pwd_logo{top: 156px;}
+#email_logo{top: 206px;}
+#fname_logo{top: 257px;}
+#lname_logo{top: 308px;}
+
+
+
+

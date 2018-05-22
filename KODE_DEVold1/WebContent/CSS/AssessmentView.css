@@ -1,0 +1,73 @@
+.sem-left{width: 30%; float: left;}
+.sem-left img{width: 100%;}
+.sem-right
+{
+	width: 67%;
+	float: right;
+}
+.nn-part a
+{
+	text-decoration:  none !important;
+}
+.sem_list1_ul li:hover .ww{
+	color: #fff !important;
+
+	}
+.sem_list1_ul li{
+	float: left; text-decoration: none;
+ list-style: none; /* width: 20.5%;  */text-align: center; 
+ /* border-right: 3px solid #b39043; */
+ margin-right:15px;
+ padding: 5px;
+font-weight: bold; 
+
+background-repeat:no-repeat;
+}
+.sem_list1_ul li:last-child{border: none;}
+.sem_list1_ul li:hover
+{
+background: #6599ff;
+}
+.aa h4
+{
+	border-top:1px solid #ccc;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.sem_list2{
+background: url('../Image/block_trans.png');
+	border: 3px solid #b39043;
+	height: 50px;
+	font-weight: bold;
+}
+
+
+.sem_list2_ul li{
+	float: left; text-decoration: none;
+ list-style: none; width: 20.5%; text-align: center; 
+ border-right: 3px solid #b39043;
+ padding: 15px 2%;
+ }
+.sem_list2_ul li:last-child{border: none; width: 21.14%;}
+
+.sem_list2_ul li:hover
+{
+	background: #6599ff;
+}
+h4{margin-top: 15px; padding-bottom: 15px;}
+
+.sem_i,.sem_ii, .sem_iii, .sem_iv {
+    padding: 5px;
+    display: none;
+}
+.sem_v,.sem_vi, .sem_vii, .sem_viii {
+    padding: 5px;
+    display: none;
+}
+.active{background: #6599ff;}
+.sm_list_1 li{list-style: none; font-family: OpenSans-Regular; font-size: 18px; }
+
+
+  
+

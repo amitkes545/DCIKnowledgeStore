@@ -1,0 +1,20 @@
+*{margin: 0px;padding: 0px;}
+@font-face
+{
+font-family:regular;
+src:url(../font/OpenSans-Regular.ttf)
+}
+
+@font-face
+{
+font-family:bold;
+src:url(../font/OpenSans-Bold.ttf)
+}
+#page_footer1 {
+    left: 0px;
+    width: 100%;
+    background-color: #D1D1D1;
+    position: absolute;
+    bottom: 0px
+}
+#footer-text{text-align: center;color: #0094da; padding: 5px 0px;font-size: 14px;}

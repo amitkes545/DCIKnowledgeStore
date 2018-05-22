@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  box-sizing: border-box;
+}
+.row {
+	display:table;
+	content:"";
+	clear:both;
+}	
+/*----helping css---*/
+.form_input ul li.extra_space {
+	margin-bottom:16px;
+}
+/*----helping css---*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	line-height:1.5;
+}
+.container {
+	width:980px;
+	background:#5D4C46;
+	margin:30px auto auto auto;
+	padding:10px;
+}
+.student_form_outer {
+	width:100%;
+	background:#7B8D8E;
+	padding:15px;
+}
+.student_form_outer h1 {
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0px;
+	padding:3px 0px;
+	text-align:center;
+	float:left;
+	width:100%;
+	background:#2ba6e7;
+}
+.student_form_left {
+	width:445px;
+	float:left;
+	margin-top:15px;
+}
+.student_form_right {
+	width:445px;
+	float:right;
+	margin-top:15px;
+}
+.form_input ul {
+	padding:0px;
+	list-style:none;
+	margin:0px;
+}
+.form_input ul li {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.form_input ul li input[type=text] {
+	width:100%;
+	height:30px;
+	border:1px solid #666;
+	background:#e1e1e1;
+	font-size:12px;
+	padding:0px 10px;
+}
+.form_input ul li select {
+	width:100%;
+	height:30px;
+	border:1px solid #666;
+	font-size:12px;
+	background:#e1e1e1;
+	padding:0px 10px;
+}
+.form_input ul li textarea {
+	width:100%;
+	height:147px;
+	border:1px solid #666;
+	font-size:12px;
+	resize:none;
+	font-family:arial;
+	background:#e1e1e1;
+	padding:5px;
+}
+.form_input ul li span {
+	font-size:14px;
+	color:#fff;
+}
+.form_input ul li input[type=radio] {
+	cursor:pointer;
+}
+.form_input ul li label {
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    float: left;
+}
+.button_area {
+	width:100%;
+	height:auto;
+	padding-top:20px;
+}
+.button_area input {
+	width:100px;
+	height:35px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:auto;
+	display:table;
+	border:none;
+	background:#2ba6e7;
+	cursor:pointer;
+}
+.student_profile {
+	width:100%;
+	height:183px;
+}
+.program_list {
+	width:600px;
+	float:left;
+	padding-left: 2px;
+	padding-bottom:28px;
+}
+.program_list ol {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.program_list ol li {
+	width:100%;
+	float:left;
+}
+.program_list ol li label {
+	color:#fff;
+}
+.program_list ol li input {
+	float:right;
+	cursor:pointer;
+}
+.profile_photo {
+    width: 150px;
+    float: right;
+    height: 150px;
+    background: #ccc;
+}

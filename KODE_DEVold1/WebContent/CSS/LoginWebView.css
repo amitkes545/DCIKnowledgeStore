@@ -1,0 +1,142 @@
+@font-face
+{
+font-family:regular;
+src:url(../fone_new/OpenSans-Regular.ttf)
+}
+
+@font-face
+{
+font-family:bold;
+src:url(../fone_new/OpenSans-Bold.ttf)
+}
+@font-face
+{
+font-family:italic;
+src:url(../fone_new/OpenSans-Italic.ttf)
+}
+@font-face
+{
+font-family:bitalic;
+src:url(../fone_new/OpenSans-ExtraBoldItalic.ttf)
+}
+#kdsheader{
+	background: #C2C2C2;
+}
+.kdslogo{text-align: left;}
+
+.container{
+	width:93%;
+	margin: 0 auto;
+}
+
+.section2
+{
+width:30%;
+float: left;
+
+margin-top: 125px;
+}
+.section3
+{
+width:41%;
+float: left;
+margin-top: 20px;
+font-family: regular;
+;
+
+}
+.secpara
+{
+font-family:italic;
+padding: 5px;
+margin-left: 45px;
+text-align:justify;
+
+}
+.body-mtr{
+width: 110%;
+/* background: url('../Image/body-bg.jpg') center no-repeat; */
+}
+input:-webkit-autofill{background: #fff !important;}
+.sii{width: 97%; margin-top: 150px; border: 2px solid #369bd7;}
+.log_in_in{
+	
+	width: 355px;
+	/* height: 350px; */
+	border: 1px solid #369bd7;
+	margin-top: 160px;
+	float:left;
+	
+}
+.log_in_header{
+background: #369bd7;
+height: 40px;
+}
+.log_in_header a{color:#fff; font-size: 20px; text-decoration: none; margin: 10px 20px;}
+
+.sigin_box{border: 1px solid #c2c2c2; 
+margin:2px 15px 25px 15px; 
+padding: 15px; border-radius:10px;
+box-shadow: 5px 10px 5px #c2c2c2;
+
+}
+
+
+.usname_bg
+{
+/* 	background: url('../Image/man.png')257px 5px no-repeat , #fff; */
+	background:#fff;
+	border: 1px solid #c2c2c2;
+}
+.pwd_bg{
+	/* background: url('../Image/pwd.png')265px 5px no-repeat , #fff; */
+	background:#fff;
+	margin-top: 20px;
+	border: 1px solid #c2c2c2;
+}
+.sigin_box input{width: 97%; height: 38px; padding-left: 2%; }
+#remember{width: 20px; height:20px;margin-top: 10px; margin-right: 10px; }
+.sign_btn{
+	width: 294px !important;
+	background: #e04a32;
+	color: #c2c2c2;
+	
+}
+
+#uparrow{
+	position: absolute;
+    margin-top: -27px;
+    margin-left: 130px;
+}
+.forget_pwd{color: #000; }
+#sig_btn{
+background: #369bd7;color: #fff;	
+font-size: 18px;
+width: 99%;
+}
+#sig_btn_fpwd{
+background: #369bd7;color: #fff;	
+font-size: 18px;
+width: 49%;
+}
+
+.register_box{
+	border: 1px solid #c2c2c2;
+	margin:2px 15px 15px 15px;
+	padding: 15px;
+	border-radius:10px;
+	box-shadow: 5px 10px 5px #c2c2c2;
+	}
+.register_box input{width: 97%; height: 38px; margin-bottom: 20px; padding-left: 2%;}
+#reg_btn{
+background: #369bd7;color: #fff;	
+font-size: 18px;
+width: 100%;
+}
+#uparrow-reg{
+	position: absolute;
+    margin-top: -27px;
+    margin-left: 235px;
+	
+}
+
