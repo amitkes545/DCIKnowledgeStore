@@ -1,0 +1,516 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Media Query CSS*/
+@media only screen and (max-width:1085px) {
+.menubar, .menubar1 {
+	left:15px;
+}
+
+.show-status0 .circle1{
+	left: 40px !important;
+	top: 90px !important;
+}
+.show-status0 .circle1 strong{
+	color:#fff;
+	font-size:10px;
+	top:12px !important;
+}
+.show-status1 .circle2{
+	left: 120px !important;
+	top: 90px !important;
+}
+.show-status1 .circle2 strong{
+	color:#fff;
+	font-size:10px;
+	top:12px !important;
+}
+}
+@media only screen and (max-width:999px) {
+.container {
+ width:100%;
+ padding:0px 15px;
+}
+.change-password-box {
+ padding-bottom:30px;
+}
+.login-info {
+ margin-bottom:-10px;
+}
+.teaching-source {
+ width:100%;
+}
+.teaching-source li {
+ width:25%;
+}
+.menubar1{
+	min-width:auto;
+	background:#1f677d;
+	position:absolute;
+	left:15px;
+	top:15px;
+	text-align:center;
+	z-index:8;
+}
+.menubar1 i {
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: block;
+}
+.menubar {
+ min-width:auto;
+ background:#1f677d;
+ position:absolute;
+ left:15px;
+ top:15px;
+ text-align:center;
+ z-index:8;
+}
+.box1 {
+width:49%;
+float:left;
+text-align:center;
+}
+.box2 {
+width:49%;
+float:left;
+text-align:center;
+}
+.cine-form-box-left {
+ width:49%;
+}
+ .cine-form-box-right {
+ width:49%;
+}
+.menubar{
+	left:15px;
+	top:20px;
+}
+.ft_rel_container {
+	width: 100%;
+}
+.show-status0 .circle1{
+	left: 40px !important;
+	top: 95px !important;
+}
+.show-status0 .circle1 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+.show-status1 .circle2{
+	left: 120px !important;
+	top: 95px !important;
+}
+.show-status1 .circle2 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+.show-status2 .circle3{
+	left: 200px !important;
+	top: 95px !important;
+}
+.show-status2 .circle3 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+
+.show-status3 .circle4{
+	left: 285px !important;
+	top: 95px !important;
+}
+.show-status3 .circle4 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+.show-status4 .circle5{
+	left: 390px !important;
+	top: 95px !important;
+}
+.show-status4 .circle5 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+.show-status5 .circle6{
+	left: 350px !important;
+	top: 95px !important;
+}
+.show-status5 .circle6 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+}
+
+@media only screen and (max-width:800px) {
+.teaching-source {
+ position:inherit;
+ display:block;
+ margin-top:20px;
+}
+.teaching-source li {
+ width:48.7%;
+ margin-bottom:15px;
+ margin-right:2%;
+}
+.teaching-source li:nth-child(2n+2) {
+	margin-right:0px;
+}
+.teaching-source li img {
+ width:100%;
+}
+footer {
+z-index:999;
+}
+.middle-container .banner{height:150px;padding-top:55px;}
+.middle-container .banner span{ font-size:25px;}
+.box1 {
+width:48%;
+float:left;
+text-align:center;
+}
+.createmanual, .excelupload, .upload, .upload-section, .existingstud {
+width:95%;
+}
+.box2 {
+width:48%;
+float:left;
+text-align:center;
+}
+}
+
+@media only screen and (max-width:768px) {
+ header {
+ padding:10px 0px;
+}
+ .forgotpswd .button {
+ margin-top:20px;
+ width:100%;
+ font-size:12px;
+ padding:8px 20px;
+}
+ .btnblock a {
+ font-size:13px;
+}
+.client_logo {
+ margin:auto;
+ float:none;
+ display:table;
+}
+ .change-password-box {
+ width:80%;
+}
+.menubar{
+	left:15px;
+	top:20px;
+}
+.teaching-source {
+ position:inherit;
+ display:block;
+ margin-top:20px;
+}
+.createmanual, .excelupload, .upload, .upload-section, .existingstud{width: 90%;}
+.page-title h3 {
+	font-size: 20px;
+	padding: 10px 0 20px;
+}
+.header-cell {
+	padding: 9px;
+	font-size: 12px;
+}
+.fillbox{font-size:12px;}
+
+
+.show-status0 .circle1{
+	left: 40px !important;
+	top: 95px !important;
+}
+.show-status0 .circle1 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+.show-status1 .circle2{
+	left: 100px !important;
+	top: 95px !important;
+}
+.show-status1 .circle2 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+.show-status2 .circle3{
+	left: 160px !important;
+	top: 95px !important;
+}
+.show-status2 .circle3 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+
+.show-status3 .circle4{
+	left: 225px !important;
+	top: 95px !important;
+}
+.show-status3 .circle4 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+.show-status4 .circle5{
+	left: 290px !important;
+	top: 95px !important;
+}
+.show-status4 .circle5 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+.show-status5 .circle6{
+	left: 350px !important;
+	top: 95px !important;
+}
+.show-status5 .circle6 strong{
+	color:#fff;
+	font-size:10px;
+	top:15px !important;
+}
+
+}
+@media only screen and (max-width:480px) {
+ .login-form {
+ width:100%;
+}
+ .login-form h1 {
+ font-size:15px;
+}
+ .logo {
+ margin:auto;
+ display:table;
+ float:none;
+}
+ .login-form {
+ margin-top:35px;
+ margin-bottom:35px;
+ padding:20px 25px;
+}
+ .login-form h1 {
+ margin-bottom:20px;
+}
+ input[type="text"], input[type="email"] {
+ height:32px;
+ font-size:12px;
+}
+.header_banner {
+ margin-top:10px;
+}
+ .change-password-box h3 {
+ color: #19b1d2;
+ padding: 15px 0px;
+ font-size: 18px;
+}
+ input[type=password] {
+ height:32px;
+ font-size:12px;
+}
+.button {
+ font-size:14px;
+ width:100%;
+}
+ .button:hover {
+ width:100%;
+}
+.change-password-box {
+ width:100%;
+}
+.login-info {
+ margin-bottom:-10px;
+}
+.teaching-source li {
+display: table;
+    float: none;
+    margin: auto auto 15px;
+    width: 190px;
+}
+.teaching-source li:nth-child(2n+2){margin:auto; margin-bottom:15px;}
+.teaching-source {
+	box-shadow:none;
+}
+.teaching-source li:last-child {
+ margin-bottom:0px;
+}
+.teaching-source li.univ span{font-size:18px;}
+.middle-container .banner{height:80px;padding-top:10px;}
+.middle-container .banner span{font-size:20px;}
+.logo{margin-bottom:15px;}
+
+.middle-container .banner span {
+    float: left;
+    font-size: 18px;
+    padding-left: 55px;
+    text-align: left;
+}
+/*Upload Excel - Existing Students starts*/
+.box1, .box2 {
+width:100%;
+float:left;
+text-align:center;
+}
+.createmanual, .existingstud {
+margin-top:30px;
+}
+.seprator {
+display:none;
+}
+.box2 {
+margin-top:20px;
+}
+.uploadbox {
+ margin-top:20px;
+}
+h5 {
+ font-size:20px;
+}
+.createmanual, .existingstud {
+ margin-top:20px;
+}
+.uploadbtn {
+ padding:12px 26px;
+}
+/*Upload Excel - Existing Students ends*/
+
+.cine-form-box-left, .cine-form-box-right {
+ width:100%;
+ padding:0px;
+}
+ .cine-setup .dropdown-input input[type="text"], .cine-setup .dropdown-input {
+ width:100%;
+ height:30px;
+ font-size:12px;
+}
+ .cine-setup textarea {
+ width:100%;
+ height:60px;
+ font-size:12px;
+}
+ .cine-setup-info h3 {
+ font-size: 18px;
+ padding: 20px 0;
+}
+.cine-setup .dropdown {
+height:32px;
+}
+input[type="text"], select {
+height:30px;
+font-size:12px;
+}
+.cine-setup .dropdown img {
+max-width:5%;
+top:7px;
+}
+.menubar{
+	left:15px;
+	top:15px;
+}
+.passhideshow,.passhideshow1 {
+	top:9px;
+}
+footer p {
+	font-size:11px;
+}
+.button {
+	padding:10px 15px;
+	width:100%;
+}
+.cine-fullwidth {
+	float:left;
+	width:100%;
+	padding-left:0px;
+}
+.cine-fullwidth li:nth-child(2){
+	float:left;
+	width:70%;
+}
+.cine-fullwidth li:nth-child(3){
+	float:left;
+	width:30%;
+	padding-left:20px;
+}
+
+
+.show-status0 .circle1{
+	left: 15px !important;
+	top: 90px !important;
+}
+.show-status0 .circle1 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+
+
+.show-status1 .circle2{
+	left: 55px !important;
+	top: 90px !important;
+}
+.show-status1 .circle2 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+
+
+.show-status2 .circle3{
+	left: 95px !important;
+	top: 90px !important;
+}
+.show-status2 .circle3 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+
+
+.show-status3 .circle4{
+	left: 135px !important;
+	top: 90px !important;
+}
+.show-status3 .circle4 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+
+.show-status4 .circle5{
+	left: 175px !important;
+	top: 90px !important;
+}
+.show-status4 .circle5 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+
+.show-status5 .circle6{
+	left: 214px !important;
+	top: 90px !important;
+}
+.show-status5 .circle6 strong{
+	color:#fff;
+	font-size:7px;
+	top:15px !important;
+}
+}

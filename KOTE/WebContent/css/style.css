@@ -1,0 +1,1345 @@
+@charset "utf-8";
+/* Default Styles */
+* {
+	box-sizing:border-box;
+}
+body, html {
+	margin:0px;
+	padding:0 0 176px 0;
+	outline:none;
+}
+html {
+	height:100%;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+p {
+	margin:0px;
+	padding:0px;
+}
+ul, ul li, ol, ol li {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+.row {
+	display:table;
+	content:"";
+	clear:both;
+}
+h3 {
+	font-size:28px;
+	margin:0px;
+	font-family: 'robotoregular';
+	font-weight:normal;
+}
+h5 {
+	margin:0px;
+	padding:0px;
+	font-family: 'robotoregular';
+	font-size:26px;
+	color:#128aa4;
+	font-weight:normal;
+	text-align:center;
+}
+
+
+/*Fonts CSS Styles*/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../JSP/fonts/fontawesome-webfont.eot?v=4.7.0');
+	src: url('../JSP/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../JSP/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../JSP/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../JSP/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../JSP/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+ font-family: 'oswalddemibold';
+ src: url('../JSP/fonts/oswald-demibold.woff2') format('woff2'), url('../JSP/fonts/oswald-demibold.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'robotoregular';
+ src: url('../JSP/fonts/roboto-regular.woff2') format('woff2'), url('../JSP/fonts/roboto-regular.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'robotomedium';
+ src: url('../JSP/fonts/roboto-medium.woff2') format('woff2'), url('../JSP/fonts/roboto-medium.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+/*Predefine classes*/
+.margbot10 {
+	margin-bottom:10px;
+}
+.margbot20 {
+	margin-bottom:20px;
+}
+.margbot30 {
+	margin-bottom:30px;
+}
+.margbot40 {
+	margin-bottom:40px;
+}
+.margtop10 {
+	margin-top:10px;
+}
+.margtop20 {
+	margin-top:20px;
+}
+.margtop30 {
+	margin-top:30px;
+}
+.margtop40 {
+	margin-top:40px;
+}
+.margleft10 {
+	margin-left:10px;
+}
+.margleft20 {
+	margin-left:20px;
+}
+.margleft30 {
+	margin-left:30px;
+}
+.margleft40 {
+	margin-left:40px;
+}
+.margryt10 {
+	margin-right:10px;
+}
+.margryt20 {
+	margin-right:20px;
+}
+.margryt30 {
+	margin-right:30px;
+}
+.margryt40 {
+	margin-right:40px;
+}
+.padbot10 {
+	padding-bottom:10px;
+}
+.padbot20 {
+	padding-bottom:20px;
+}
+.padbot30 {
+	padding-bottom:30px;
+}
+.padbot40 {
+	padding-bottom:40px;
+}
+.padtop10 {
+	padding-top:10px;
+}
+.padtop20 {
+	padding-top:20px;
+}
+.padtop30 {
+	padding-top:30px;
+}
+.padtop40 {
+	padding-top:40px;
+}
+.padleft10 {
+	padding-left:10px;
+}
+.padleft20 {
+	padding-left:20px;
+}
+.padleft30 {
+	padding-left:30px;
+}
+.padleft40 {
+	padding-left:40px;
+}
+.padryt10 {
+	padding-right:10px;
+}
+.padryt20 {
+	padding-right:20px;
+}
+.padryt30 {
+	padding-right:30px;
+}
+.padryt40 {
+	padding-right:40px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+input[type=text], input[type=email], input[type=password], input[type=number] {
+	width: 100%;
+	padding: 0px 0 0 0px;
+	margin: 0 0 20px 0;
+	box-sizing: border-box;
+	background:#f4f4f4;
+	border:1px solid #dadada;
+	border-radius:2px;
+	height:42px;
+	color:#444;
+	font-size:12px;
+	font-family: 'robotoregular';
+	text-indent:10px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+}
+input[type=text]:focus, textarea:focus, input[type=email]:focus, input[type=password]:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 0px 0 0 0px;
+	margin: 0 0 20px 0;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+input[type=text].invalid:focus, textarea.invalid:focus, input[type=email].invalid:focus, input[type=password].invalid:focus {
+	box-shadow: 0 0 5px red !important;
+	padding: 0px 0 0 0px;
+	margin: 0 0 20px 0;
+	border: 1px solid red !important;
+}
+
+
+/*Menu - Sidebar CSS starts*/
+.menubar{
+	min-width:auto;
+	background:#1f677d;
+	position:absolute;
+	left:172px;
+	top:23px;
+	text-align:center;
+	z-index:8;
+}
+.menubar i{
+	font-size:16px;
+	color:#fff;
+	padding:8px 10px;
+	cursor:pointer;
+	display:block;
+}
+.menubar1{
+	min-width:auto;
+	background:#1f677d;
+	position:absolute;
+	left:175px;
+	top:23px;
+	text-align:center;
+	z-index:8;
+}
+.menubar1 i {
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: block;
+}
+.menu_btn span{color:#fff; padding-left:5px; float:left; padding-top:4px;}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+/*    background-color: rgba(0,150,181,0.95);*/
+    background-color: rgba(31,103,125,0.78);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav {
+	padding-top:60px;
+}
+.sidenav ul{width: 278px;
+	margin: auto;padding:0px;}
+.sidenav ul li{width: 136px;
+	height: auto;
+	float: left;
+	background: #45accb;
+	text-align: center;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	padding:15px 8px;
+	list-style:none;
+	transition:all ease 0.3s;
+	cursor:pointer;/* border-top:1px solid rgba(255,255,255, 0.3);*/}
+.sidenav ul li:first-child{border-top:none;}
+.sidenav ul li a {
+	font-family: 'robotoregular';
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav ul li a span {
+	width:100%;
+	text-align:center;
+	padding:0px;
+}
+.sidenav ul li:hover {
+	background:#8cccdf;
+}
+.sidenav ul li:last-child {
+	margin: auto;
+	display:table;
+	float: none;
+}
+.resize-icon {
+	font-size:30px!important;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right:10px;
+    font-size: 30px;
+    margin-left: 50px;
+	color:#fff;
+}
+.sidenav .closebtn:hover{
+	color:#fff;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 60px;}
+  .sidenav a {font-size: 18px;}
+}
+.body-overlay,.body-overlay-full
+{
+	display:none; background:rgba(0,0,0,0.0); 
+	opacity 0.5; filter: alpha(opacity = 50); /* IE7 & 8 */
+	position:fixed;
+	right: 0;
+	top: 0;
+	width:84%;
+	height:100%;
+}
+/*Sidebar CSS Ends*/
+
+/*Page Styles*/
+.logo {
+	display:block;
+}
+
+footer p {
+	font-family: 'robotoregular';
+	color:#fff;
+	padding:5px 0px;
+	text-transform:uppercase;
+	font-size:11px;
+}
+/*forgot-password page CSS*/
+body.login {
+	background: rgba(0, 0, 0, 0) url("../images/bluebg.jpg") no-repeat scroll left top / cover;
+}
+input[type="text"]:placeholder-shown, input[type="password"]:placeholder-shown, input[type="email"]:placeholder-shown, {
+color:#999 !important;
+font-size:12px !important;
+}
+input::-moz-placeholder {
+      color: #696969 !important;
+	  opacity:1;
+    }
+	
+input::-moz-placeholder {
+ 	color: #696969 !important;
+	opacity:1;
+}
+textarea::-moz-placeholder {
+ 	color: #646464 !important;
+	opacity:1;
+}
+.forgot-pass {
+	float: right;
+}
+.login-form {
+	background-color: rgba(177, 177, 177, 0.25);
+	width: 477px;
+	text-align: center;
+	margin: 94px auto 94px auto;
+	border: 1px solid #3cc1d7;
+	padding: 40px 57px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 70px #73b5c3;
+	overflow: hidden;
+}
+.btn-login {
+	background-color: #006f81; /* Green */
+	border: none;
+	color: white;
+	padding: 11px 32px;
+	height: 39px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.login-form h1 {
+	color: #fff;
+	font-family: 'robotoregular';
+	font-size: 28px;
+	text-transform:uppercase;
+	margin:0 0 47px 0;
+	line-height:18px;
+	font-weight: lighter;
+	text-shadow: 0 0 5px rgba(0, 75, 95, 0.35);
+}
+.forgot-pass a {
+	color: #fff;
+	float: right;
+	margin:5px;
+}
+.forgot-pass {
+	width: 100%;
+}
+.btnblock {
+	float:right;
+}
+.btnblock a {
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:14px;
+	font-family: 'robotoregular';
+	line-height:10px;
+	padding-top:20px;
+	display:block;
+	transition:all linear 0.2s;
+}
+.btnblock a:hover {
+	color:#ccc;
+}
+.forgotpswd-box input[type=email] {
+	margin-bottom:0px;
+}
+.forgotpswd .button {
+	margin-top:30px;
+}
+/*Button Styles*/
+.button {
+	background:#006f81;
+	width:auto;
+	transition:all linear 0.2s;
+	padding:14px 26px 14px 26px;
+	margin:0px;
+	font-size:16px;
+	color:#fff;
+	font-family: 'oswalddemibold';
+	text-transform:uppercase;
+	line-height:12px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	text-align:center;
+}
+.button:hover {
+	background:#05798c;
+}
+/*Error/Notification CSS*/
+input.error {
+	border: 1px solid red !important;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 0.5) !important;
+}
+input.error:focus {
+	border: 1px solid red !important;
+	box-shadow: none;
+}
+textarea.error {
+	border: 1px solid red !important;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 1);
+}
+select.error {
+	border: 1px solid red !important;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 1);
+}
+label.error {
+	display:none !important;
+}
+input[type=password].error {
+	border:1px solid #ff0000;
+}
+header {
+	 background: #fff none repeat scroll 0 0;
+    display: block;
+    float: left;
+    padding: 17px 0 0 0;
+    width: 100%;
+}
+footer {
+	background:#9d9da1;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	z-index:9;
+}
+.login-forgot-pass a{
+	color: #fff;
+	font-family: 'robotoregular';
+	font-size: 14px;
+}
+.login-forgot-pass{
+	width:100%;
+	float:right;
+	text-align:right;
+	margin-bottom:20px;
+}
+.login-info{
+	margin-bottom:-10px;
+}
+
+
+
+/*Krishna CSS start
+-------------------------*/
+.client_logo {
+	width:auto;
+}
+.header_banner {
+	background: rgba(0, 0, 0, 0) url("../images/banner.png") no-repeat scroll left top / cover;
+	height:76px;
+	clear:both;
+	border:2px solid #9d9da1;
+	margin-top: 17px;
+	float: left;
+	width: 100%;
+	position:relative;
+}
+.middle-column {
+	width:100%;
+	padding-bottom:53px;
+	overflow:hidden;
+}
+.change-password-box {
+	width:470px;
+	display:table;
+	text-align:center;
+	margin:auto;
+	padding:0px 3.5px;
+}
+.change-password-box h3 {
+	color:#19b1d2;
+	padding:44px 0px 40px 0px;
+}
+.change-password-box ul li:last-child {
+	margin-top:20px;
+}
+/*Krishna CSS end
+-------------------------*/
+
+
+
+.change-password-box ul li {
+	position:relative;
+}
+.passhideshow {
+	position:absolute;
+	right:10px;
+	top:14px;
+	cursor:pointer;
+}
+.passhideshow img {
+	max-width:24px;
+	height:auto;
+}
+.passhideshow1 {
+	position:absolute;
+	right:10px;
+	top:14px;
+	cursor:pointer;
+}
+.passhideshow1 img {
+	max-width:24px;
+	height:auto;
+}
+.hideShowPassword-toggle, .my-toggle {
+    z-index: 3;
+}
+
+.passhideshow {
+	background:url(../images/eyeicon.png) no-repeat;
+	width:35px;
+	height:22px;
+	background-size:25px;
+	background-position:right 0px;
+}
+.passhideshow1 {
+	background:url(../images/eyeicon.png) no-repeat;
+	width:35px;
+	height:22px;
+	background-size:25px;
+	background-position:right 0px;
+}
+.eyeclose {
+	background:url(../images/eye-open.png) no-repeat;
+	width:35px;
+	height:22px;
+	background-size:25px;
+	background-position: right 0px;
+}
+
+
+/*Krunal - Teaching Source CSS starts*/
+.middle-container {
+	width:100%;
+	padding-bottom:65px;
+	float:left;
+}
+
+.middle-container .banner {
+	text-align:center;
+	width:100%;
+	height:235px;
+	padding-top:69px;
+	background:url(../images/bnr.png) top left no-repeat;
+	background-size:cover;
+	border-top:2px solid #9d9da1;
+	border-bottom:2px solid #9d9da1;
+	position:relative;
+}
+
+.middle-container .banner span {
+	font-size:30px;
+	color:#cceaf1;
+	font-family: 'oswalddemibold';
+	text-transform:uppercase;
+}
+.teaching-source {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0 0px 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 258px;
+	-webkit-box-shadow: 0 10px 8px -3px #777;
+	-moz-box-shadow: 0 10px 8px -3px #777;
+	box-shadow: 0 10px 8px -3px #777;
+}
+.teaching-source li {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	width:250px;
+	float:left;
+	background:#000;
+	cursor:pointer;
+}
+.teaching-source li img {
+	opacity:0.5;
+	transition:all ease 0.5s;
+	float:left;
+}
+.teaching-source li:hover img {
+	opacity:1.0;
+}
+.teaching-source li.univ {
+	position:relative;
+}
+.teaching-source li.univ span {
+	font-size:24px;
+	color:#fff;
+	font-family: 'oswalddemibold';
+	text-transform:uppercase;
+	position:absolute;
+	z-index:1;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	padding:5px 0 5px 10px;
+	transition: all linear 0.2s;
+}
+.teaching-source li.univ:hover span {
+	background:rgba(18, 138, 164, 0.8);
+	width:100%;
+}
+/*Krunal - Teaching Source CSS ends*/
+
+/*Krunal - Upload Excel CSS starts*/
+.middle-container .banner_small {
+	text-align:center;
+	width:100%;
+	height:80px;
+	padding-top:69px;
+	background:url(../images/bnr.png) top left no-repeat;
+	background-size:cover;
+	border-top:2px solid #9d9da1;
+	border-bottom:2px solid #9d9da1;
+	position:relative;
+}
+.uploadbox {
+	display:block;
+	margin-top:54px;
+}
+.box1 {
+	width:493px;
+	float:left;
+	text-align:center;
+}
+.box2 {
+	width:493px;
+	float:left;
+	text-align:center;
+}
+.seprator {
+	float:left;
+}
+.createmanual {
+	background: #128aa4;
+	padding: 11px 9px;
+	width: 378px;
+	display: block;
+	overflow: hidden;
+	margin: 65px auto 0 auto;
+	transition:all ease 0.2s;
+}
+.createmanual:hover {
+	background:#337f99;
+}
+.createmanual img {
+	float:left;
+	padding-right:10px;
+	vertical-align:top;
+}
+.createmanual span {
+	font-family: 'robotoregular';
+	font-size:16px;
+	color:#fff;
+	vertical-align:top;
+	float:left;
+}
+.excelupload {
+	background: #337f99;
+	padding: 11px 9px;
+	width: 378px;
+	display: block;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+}
+.excelupload img {
+	float:left;
+	padding-right:10px;
+	vertical-align:top;
+}
+.excelupload span {
+	font-family: 'robotoregular';
+	font-size:16px;
+	color:#fff;
+	vertical-align:top;
+	float:left;
+}
+.upload {
+	border:1px solid #d7d7d7;
+	padding: 11px 9px;
+	width: 378px;
+	display: block;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+}
+.upload-section {
+	width: 378px;
+	display: block;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+}
+.upload input[type="file"] {
+	float:left;
+	width: 360px;
+}
+.uploadbtn {
+	background:#128aa4;
+	width:auto;
+	transition:all linear 0.2s;
+	padding:14px 26px 14px 26px;
+	font-size:16px;
+	color:#fff;
+	font-family: 'oswalddemibold';
+	text-transform:uppercase;
+	line-height:12px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	text-align:center;
+}
+.uploadbtn:hover {
+	background:#1a98b3;
+}
+.existingstud {
+	background: #337f99;
+	padding: 11px 9px;
+	width: 378px;
+	display: block;
+	overflow: hidden;
+	margin: 65px auto 0 auto;
+}
+.existingstud img {
+	float:left;
+	padding-right:10px;
+	vertical-align:top;
+}
+.existingstud span {
+	font-family: 'robotoregular';
+	font-size:16px;
+	color:#fff;
+	vertical-align:top;
+	float:left;
+}
+/*Krunal - Upload Excel CSS ends
+=============================================*/
+
+/*khader css - CINE SPOCS - Table Scrollbar CSS starts
+=======================================================*/
+.ft_container {
+	height: 236px !important;
+}
+.ft_scroller input[type=text], .ft_scroller input[type=email], .ft_scroller select {
+	width: 100% !important;
+	height: 24px;
+	background: #fff;
+	padding: 0px 0px;
+	color: #646464;
+	font-size: 12px;
+	border: 1px solid #dadada;
+	outline: none;
+	margin-bottom: 0px !important;
+}
+.ft_scroller .dropdown-input {
+	width: 100%;
+	height: 30px;
+	background: #f4f4f4;
+	padding: 0px 6px;
+	color: #c0c2bc;
+	font-siae: 14px;
+	/*border: 1px solid #dadada;*/
+	outline: none;
+}
+.page-title h3 span {
+	color: #00698d;
+}
+.page-title h3 {
+	color: #19b1d2;
+	padding: 41px 0 35px;
+	text-align: center;
+	margin: auto;
+	font-weight: normal;
+	font-size: 28px;
+	margin: 0px;
+	font-family: 'robotoregular';
+}
+.light-bg td {
+	background-color: #f8f8f8;
+}
+.dark-bg td {
+	background-color: #eeeeee;
+}
+/*.ft_container table thead tr th.fx_sort_bg {
+	background-image: url("../images/bg.gif");
+	background-position: right center;
+	background-repeat: no-repeat;
+}*/
+table {
+	border-collapse: collapse;
+}
+.mytable {
+	position: relative;
+	display: block;
+}
+.outer-container {
+	background-color: #ccc;
+	position: absolute;
+	height: 230px;
+	width: 100%;
+}
+.inner-container {
+	height: 100%;
+	overflow: hidden;
+}
+.table-header {
+	position: relative;
+}
+.table-body {
+	overflow: auto;
+}
+.header-cell {
+	background-color: #1d84a5;
+	color: #fff;
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 12px 9px;
+	text-align: left;
+	font-family: 'Robotomedium';
+}
+.body-cell {
+	background-color: #fff;
+	text-align: left;
+}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10 {
+	width: 165px;
+	min-width: 165px;
+}
+.colcust1{
+ width: 220px;
+ min-width: 220px;
+}
+.colnew{
+	width: 200px;
+	min-width: 200px;
+}
+.col11{
+ width: 332px;
+ min-width: 332px;
+}
+.col12{
+	width: 490px;
+	min-width: 490px;
+}
+.col13{
+	width: 245px;
+	min-width: 245px;
+}
+
+/*USE - RTMM - Role to Menu Mapping (USE) table column header CSS*/
+.colonly3{
+	width: 327px;
+	min-width: 327px;
+}
+
+/*USE - User System Parameters (USE) table column header CSS*/
+.uspcol4{
+	width: 245px;
+	min-width: 245px;
+	font-family: 'robotoregular';
+	font-size:12px;
+	vertical-align:top;
+}
+
+table th {
+	background-color: #1d84a5;
+	color: #fff;
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 13px 9px;
+	font-family: 'robotoregular';
+}
+table td {
+	font-size: 12px;
+	color:#646464;
+	font-weight: lighter;
+	font-family: 'robotoregular';
+}
+td, th, tr {
+	border: 2px solid #fff;
+	text-align: left;
+	padding: 5px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.ft_rel_container {
+	position: relative;
+	overflow: hidden;
+	border-width: 0px;
+	width: 100%;
+	height: 100%;
+}
+.ft_rc {
+	position: absolute;
+	z-index: 1005;
+}
+.ft_r, .ft_c {
+	position: relative;
+}
+.ft_rwrapper, .ft_cwrapper {
+	overflow: hidden;
+	position: absolute;
+	z-index: 9;
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.ft_scroller {
+	overflow: auto;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+/*khader css - CINE SPOCS - Table Scrollbar CSS ends
+==================================================*/
+
+
+
+/*Khader - CINE Setup Middle Layer starts
+====================================================*/
+.cine-setup .dropdown-input {
+	width: 100%;
+	height: 38px;
+	background: #f4f4f4;
+	padding: 0px 6px;
+	color: #c0c2bc;
+	font-siae: 14px;
+	/*border: 1px solid #dadada;*/
+    outline: none;
+}
+.cine-setup-info h3 span {
+	color:#00698d;
+}
+.cine-setup-info h3 {
+	color: #19b1d2;
+	padding: 44px 0px 40px 0px;
+	text-align: center;
+	margin: auto;
+	font-weight: normal;
+	font-size:28px;
+	margin:0px;
+	font-family: 'robotoregular';
+}
+
+.cine-form-box-left {
+	float:left;
+	width:480px;
+	padding-left:20px;
+}
+.cine-form-box-right {
+	float:right;
+	width:480px;
+	padding-right:20px;
+}
+select {
+	width: 100%;
+	height: 38px;
+	background: #f4f4f4;
+	color:#babcb6;
+	font-size: 13px !important;
+	border: 1px solid #dadada;
+	outline: none;
+	position:relative;
+	padding:0px 6px;
+	border: 1px solid #dadada;
+	margin-top: 0px;
+}
+.cine-setup .dropdown {
+	width: 100%;
+	height: 40px;
+	background: #f4f4f4;
+	color:#babcb6;
+	font-size: 14px !important;
+	border: 1px solid #dadada;
+	outline: none;
+	margin-bottom:20px;
+	position:relative;
+	padding:0px;
+	border: 1px solid #dadada;
+	margin-top: 2px;
+}
+.cine-setup .dropdown img {
+	position:absolute;
+	right: 4px;
+	top: 9px;
+}
+.cine-setup .dropdown select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	color: #646464;
+	cursor: pointer;
+	font-family: "robotoregular";
+}
+
+.cine-setup input.error {
+	border:1px solid #F00!important;
+}
+.cine-setup textarea.error {
+	border:1px solid #F00!important;
+}
+/*.cine-setup select.valid {
+	border:1px solid #F00!important;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 0.5) !important;
+}*/
+.cine-setup select .dropdown-input {
+	border:1px solid #F00;
+}
+.cine-setup .dropdown-input {
+	border:1px solid #F00;
+}
+#name-error, #Website-error, #lastyear-error, #logo-error, #Pincode-error, #logosize-error, #address-error {
+	display:none!important;
+}
+.cine-setup input[type=text], .cine-setup input[type=number] {
+	width: 100% !important;
+	background: #f4f4f4 !important;
+	color: #646464;
+	font-siae: 12px;
+	border: 1px solid #dadada;
+	outline: none;
+	font-family: "robotoregular";
+}
+.cine-setup input[type=submit-input] {
+	width: 100%;
+	background: #f4f4f4;
+	padding: 0px;
+	color: #646464;
+	font-siae: 12px;
+	border: 1px solid #dadada;
+	outline: none;
+}
+.cine-setup textarea {
+	width: 100%;
+	height:140px;
+	background: #f4f4f4;
+	padding: 0px;
+	color: #646464;
+	border: 1px solid #dadada;
+	outline: none;
+	height: 103px;
+	margin-top: 3px;
+	font-size: 12px;
+	border: 1px solid #dadada;
+	outline: none;
+	padding:11px;
+	font-family: 'robotoregular';
+	resize:none;
+	margin-bottom:20px;
+}
+/*Khader - CINE Setup Middle Layer ends
+====================================================*/
+
+input.invalid, textarea.invalid{
+	border: 1px solid red !important;
+}
+
+/*input.valid, textarea.valid{
+	border: 1px solid green !important;
+}*/
+/* Krunal - unom-user-notification-management-use CSS starts
+=========================================================*/
+.nomargpad{margin:0px; padding:0px;}
+.fillbox{
+	background: #c7c7c7 none repeat scroll 0 0;
+    color: #131313;
+	font-family: 'robotomedium';
+	font-size:14px;
+    padding: 12px 9px;
+}
+/* Krunal - unom-user-notification-management-use CSS end
+=========================================================*/
+
+
+
+/* notification start*/
+
+.success-notification {
+ width:100%;
+ color:#fff;
+ font-size:14px;
+ text-align:center;
+ padding:15px 0px;
+ position:fixed;
+ top:0px;
+ background:#88a66b;
+ font-family: 'robotoregular';
+}
+.failure-notification {
+ width:100%;
+ color:#fff;
+ font-size:14px;
+ text-align:center;
+ padding:15px 0px;
+ position:fixed;
+ top:0px;
+ background:#bf7871;
+ font-family: 'robotoregular';
+}
+/* notification ends*/
+.cine-fullwidth {
+	float:left;
+	width:98%;
+	padding-left:20px;
+}
+.cine-fullwidth li:nth-child(2){
+	float:left;
+	width:70%;
+}
+.cine-fullwidth li:nth-child(3){
+	float:left;
+	width:30%;
+	padding-left:20px;
+}
+
+
+<!-- Krunal - Progress Icon CSS starts-->
+.show-status0{position:relative; z-index:1;}
+.show-status0:hover{opacity:1}
+.show-status0 .circle1 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:190px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status0 .circle1 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+.show-status1{position:relative; z-index:1;}
+.show-status1 .circle2 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:290px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status1 .circle2 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+.show-status2{position:relative; z-index:1;}
+.show-status2 .circle3 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:390px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status2 .circle3 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+.show-status3{position:relative; z-index:1;}
+.show-status3 .circle4 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:490px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status3 .circle4 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+.show-status4{position:relative; z-index:1;}
+.show-status4 .circle5 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:590px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status4 .circle5 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+.show-status5{position:relative; z-index:1;}
+.show-status5 .circle6 {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: absolute;
+  z-index:1;
+  right:50px;
+  top:690px;
+  text-align: center;
+  line-height: 1.2;
+}
+.show-status5 .circle6 strong {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 11px;
+  font-weight:lighter;
+  font-family: 'robotoregular';
+}
+
+.circle canvas {
+  vertical-align: top;
+}
+.circle strong {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'robotoregular';
+}
+
+/* Krunal - Progress Icon CSS ends*/
+
+.thankyou1{margin:150px auto 0; width:auto; text-align:center;}
+.thankyou1 span{font-size:60px; text-transform:uppercase; color:#00698d; font-family: 'robotoregular'; width:auto; text-shadow: 0px 3px #bababa;}
+.thankyou1 span span{color:#128aa4;}
+.homebtn{background:#1F677D; border-radius:4px; padding:6px 20px; color:#fff; font-size:16px; font-family: 'robotoregular'; transition:all ease 0.2s;}
+.homebtn:hover{background:#0090C2;}
